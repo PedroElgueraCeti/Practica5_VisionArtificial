@@ -4,7 +4,7 @@ import cv2
 import imutils
 import numpy as np
 
-fila = 3
+fila = 2
 columna = 3
 
 img1 = cv2.imread('manto.jpg', 1)
