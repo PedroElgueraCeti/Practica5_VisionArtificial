@@ -2,6 +2,7 @@ from matplotlib import pyplot as plt
 from matplotlib import pylab 
 import cv2
 import imutils
+import numpy as np
 
 fila = 3
 columna = 3
@@ -53,6 +54,7 @@ plt.imshow(img1)
 plt.axis('off')
 plt.title("Imagen: THRESH_TOZERO_INV")
 
+"""
 fig.add_subplot(fila,columna,7)
 img1 = cv2.imread('manto.jpg', 1)
 ret,img1 = cv2.threshold(img1, 125, 255 , (cv2.THRESH_BINARY+cv2.THRESH_OTSU))
@@ -61,3 +63,4 @@ plt.imshow(img1)
 plt.axis('off')
 plt.title("Imagen: THRESH_OTSU")
 plt.show()
+"""
