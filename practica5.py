@@ -11,6 +11,7 @@ img1 = cv2.imread('manto.jpg', 1)
 fig = plt.figure(figsize=(10,7), constrained_layout=True)
 fig.add_subplot(fila,columna,1)
 plt.title("Imagen Original")
+plt.axis('off')
 plt.imshow(img1)
 
 fig.add_subplot(fila,columna,2)
@@ -62,5 +63,7 @@ img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2RGB)
 plt.imshow(img1)
 plt.axis('off')
 plt.title("Imagen: THRESH_OTSU")
-plt.show()
+
 """
+
+plt.show()
